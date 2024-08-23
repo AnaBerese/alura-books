@@ -10,7 +10,7 @@
 .banner__titulo{
 font-weight: 500;
 }
-.banner__pequisa{
+.banner__pesquisa{
     background-color: transparent;
     border: 1px solid var(--branco);
     color: var(--branco);
