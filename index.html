@@ -72,8 +72,7 @@
     <div class="swiper-button-next"></div>
   
     <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
+
   <div class="card">
     <!--primeira linha-->
     <div class="card__descriao">
@@ -86,6 +85,19 @@
         <!--Segunda coluna-->
         <img src="img/Angular-1.png" class="descricao__imagem"">
         </div>
+        <!--segunda linha-->
+        <div class="card__botoes"></div>
+        <!--primira coluna-->
+        <ul class="botoes">
+            <li class="botoes__item"></li>
+            <img src="img/Favoritos-1.svg" alt="favoritar livro">
+            <li class="botoes__item">
+                <img src="img/Compras.svg" alt="adicionar no carrinho de compras">
+            </li>
+            </li>
+        </ul>
+        <!--egunda coluna-->
+        <a href="#"class="botoes__ancora">Saiba mais</a>
     </div>
   </div>
 </section>
@@ -97,8 +109,8 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const swiper= new swiper('.swiper ,'){
-        spaceBeten: 10,
-        slidesPerView: 3,
+        spaceBeten=10,
+        slidesPerView:3,
     }
 </script>
 </html>
